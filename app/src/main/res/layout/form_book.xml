@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+  <EditText
+    android:id="@+id/etBookName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:hint="Name"
+    android:singleLine="true" >
+
+    <requestFocus />
+  </EditText>
+
+  <EditText
+    android:id="@+id/etBookDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Description"
+    android:singleLine="true"
+    android:layout_below="@+id/etBookName"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+  <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:ems="10"
+    android:id="@+id/etBookNumPages"
+    android:layout_below="@+id/etBookDescription"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    android:hint="Number of pages"
+    android:singleLine="true" />
+
+</RelativeLayout>

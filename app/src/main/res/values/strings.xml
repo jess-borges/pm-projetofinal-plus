@@ -1,0 +1,22 @@
+<resources>
+  <string name="app_name">Oncebook</string>
+  <string name="title_section1">Section 1</string>
+  <string name="title_section2">Section 2</string>
+  <string name="title_section3">Section 3</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_example">Example action</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_book">Books</string>
+  <string name="title_activity_relationship">Relationships</string>
+  <string name="title_activity_character">Characters</string>
+  <item type="id" name="first_character_tag"/>
+  <item type="id" name="second_character_tag"/>
+  <item type="id" name="relationship_name_tag"/>
+  <string name="title_activity_books">BooksActivity</string>
+
+  <string name="hello_world">Hello world!</string>
+</resources>
